@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <settings>
+        <!--        全局缓存-->
+        <setting name="cacheEnabled" value="true"/>
+        <!--        主键回填-->
+        <setting name="useGeneratedKeys" value="true"/>
+        <!--        配置默认的执行器，SIMPLE没特别之处，REUSE执行预处理语句，BATCH执行器重用语句和批量更新-->
+        <setting name="defaultExecutorType" value="REUSE"/>
+        <!--        延迟加载-->
+        <setting name="lazyLoadingEnabled" value="true"/>
+        <!--        超时时间-->
+        <setting name="defaultStatementTimeout" value="25000"/>
+    </settings>
+    <typeAliases>
+        <package name="com.Pojo"/>
+    </typeAliases>
+    <!--    <mappers>-->
+    <!--                <mapper resource="com/learn/test/PersonMapper.xml"/>-->
+    <!--    </mappers>-->
+</configuration>

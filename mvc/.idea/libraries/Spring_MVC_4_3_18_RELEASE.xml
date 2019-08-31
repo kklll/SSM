@@ -1,0 +1,39 @@
+<component name="libraryTable">
+  <library name="Spring MVC-4.3.18.RELEASE" type="spring-mvc">
+    <properties version="4.3.18.RELEASE" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/spring-webmvc-portlet-4.3.18.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-websocket-4.3.18.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-web-4.3.18.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-webmvc-4.3.18.RELEASE.jar!/" />
+      <root url="jar://F:/java_jar/jackson/jackson-annotations-2.8.5.jar!/" />
+      <root url="jar://F:/java_jar/jackson/jackson-core-2.8.5.jar!/" />
+      <root url="jar://F:/java_jar/jackson/jackson-core-asl-1.9.13.jar!/" />
+      <root url="jar://F:/java_jar/jackson/jackson-databind-2.8.5.jar!/" />
+      <root url="jar://F:/java_jar/jackson/jackson-mapper-asl-1.9.13.jar!/" />
+      <root url="jar://F:/java_jar/commons-dbcp2-2.6.0.jar!/" />
+      <root url="jar://F:/java_jar/mybatis-spring-1.3.2.jar!/" />
+      <root url="jar://F:/java_jar/commons-pool2-2.6.2.jar!/" />
+      <root url="jar://F:/java_jar/aspectjweaver-1.9.4.jar!/" />
+      <root url="jar://F:/java_jar/resteasy-jackson2-provider-3.1.4.Final.jar!/" />
+      <root url="jar://F:/java_jar/表单验证/classmate-1.5.0.jar!/" />
+      <root url="jar://F:/java_jar/表单验证/hibernate-validator-6.0.14.Final.jar!/" />
+      <root url="jar://F:/java_jar/表单验证/jboss-logging-3.4.0.Final.jar!/" />
+      <root url="jar://F:/java_jar/表单验证/validation-api-2.0.1.Final.jar!/" />
+      <root url="jar://F:/java_jar/操作excel,word等/poi-3.17.jar!/" />
+      <root url="jar://F:/java_jar/mysql-connector-java-5.1.29.jar!/" />
+      <root url="jar://F:/java_jar/mybatis-3.4.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file://F:/java_jar/Spring/commons-logging-1.2-bin/apidocs" />
+      <root url="file://F:/java_jar/Spring/spring-framework-5.1.8.RELEASE/docs/javadoc-api" />
+      <root url="file://F:/java_jar/spring-framework-4.3.8.RELEASE/docs/javadoc-api" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="file://F:/java_jar/apache-tomcat-9.0.22/webapps/docs/appdev/sample/src" />
+      <root url="file://F:/java_jar/apache-tomcat-9.0.22/webapps/examples/WEB-INF/classes" />
+      <root url="file://F:/java_jar/apache-tomcat-9.0.22/webapps/examples/WEB-INF/jsp/applet" />
+      <root url="file://F:/java_jar/apache-tomcat-9.0.22/webapps/examples/jsp/plugin/applet" />
+    </SOURCES>
+  </library>
+</component>

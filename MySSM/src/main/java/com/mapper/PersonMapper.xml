@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mapper.PersonMapper">
+
+    <sql id="roles">id,name,birth,money</sql>
+    <insert id="insertRole" parameterType="person" useGeneratedKeys="true" keyProperty="id" >
+        insert into person(name,birth,money)value (#{name},#{birth},#{money})
+    </insert>
+    <delete id="deleteRole" parameterType="int">
+        delete from person where id=#{id}
+    </delete>
+    <update id="updateRole" parameterType="person">
+        update person
+        <set>
+            <if test="name!=null and name!=''">
+                name =#{name},
+            </if>
+            <if test="birth!=null and birth!=''">
+                birth=#{birth},
+            </if>
+            <if test="money!=null and money!=''">
+                money=#{money}
+            </if>
+            where id=#{id}
+        </set>
+    </update>
+    <select id="getRole" parameterType="int" resultType="person">
+        select * from person where id =#{id}
+    </select>
+
+    <select id="findRoles"  resultType="Person">
+        select * from person
+    </select>
+</mapper>

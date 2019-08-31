@@ -1,0 +1,24 @@
+<component name="libraryTable">
+  <library name="Java EE 6-Java EE 6">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/javax.annotation.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.servlet.jsp.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.transaction.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.resource.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.ejb.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.servlet.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.servlet.jsp.jstl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.persistence.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.jms.jar!/" />
+      <root url="jar://F:/java_jar/单元测试/junit-4.12.jar!/" />
+      <root url="jar://F:/java_jar/单元测试/hamcrest-core-1.3.jar!/" />
+      <root url="file://D:/下载" />
+      <root url="jar://F:/java_jar/mysql-connector-java-5.1.29.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://F:/java_jar/commons-dbcp2-2.6.0-bin.zip!/commons-dbcp2-2.6.0/apidocs" />
+    </JAVADOC>
+    <SOURCES />
+    <jarDirectory url="file://D:/下载" recursive="false" />
+  </library>
+</component>
