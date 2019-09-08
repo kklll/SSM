@@ -25,8 +25,10 @@ public class PersonServerImp implements PersonServer {
     使用@Cacheable定义缓存策略
     缓存中有值则返回值，否则，访问方法
      */
-    @Transactional(isolation = Isolation.READ_COMMITTED, propagation = Propagation.REQUIRED)
-    @Cacheable(value = "redisCacheManager", key = "'redis_person_'+#id")
+    @Transactional(isolation = Isolation.READ_COMMITTED,
+            propagation = Propagation.REQUIRED)
+    @Cacheable(value = "redisCacheManager",
+            key = "'redis_person_'+#id")
     @Override
     public Person getRole(int id) {
         return personMapper.getRole(id);
@@ -35,15 +37,18 @@ public class PersonServerImp implements PersonServer {
     /*
     插入使用CachePut，这样成功与否都会被插入到缓存中
      */
-    @Transactional(isolation = Isolation.READ_COMMITTED, propagation = Propagation.REQUIRED)
-    @CachePut(value = "redisCacheManager", key = "'redis_person_'+#result.id")
+    @Transactional(isolation = Isolation.READ_COMMITTED,
+            propagation = Propagation.REQUIRED)
+    @CachePut(value = "redisCacheManager",
+            key = "'redis_person_'+#result.id")
     @Override
     public Person insertRole(Person role) {
         personMapper.insertRole(role);
         return role;
     }
 
-    @Transactional(isolation = Isolation.READ_COMMITTED, propagation = Propagation.REQUIRED)
+    @Transactional(isolation = Isolation.READ_COMMITTED,
+            propagation = Propagation.REQUIRED)
     @CachePut(value = "redisCacheManager", key = "'redis_person_'+#role.id")
     @Override
     public Person updateRole(Person role) {
@@ -51,8 +56,10 @@ public class PersonServerImp implements PersonServer {
         return role;
     }
 
-    @Transactional(isolation = Isolation.READ_COMMITTED, propagation = Propagation.REQUIRED)
-    @CacheEvict(value = "redisCacheManager", key = "'redis_person_'+#id")
+    @Transactional(isolation = Isolation.READ_COMMITTED
+            , propagation = Propagation.REQUIRED)
+    @CacheEvict(value = "redisCacheManager",
+            key = "'redis_person_'+#id")
     @Override
     public int deleteRole(int id) {
         return personMapper.deleteRole(id);

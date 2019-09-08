@@ -171,7 +171,17 @@
                 </plugin>
             </plugins>
         </pluginManagement>
-
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>8</source>
+                    <target>8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+        <!--确保xml文件能够被编译到classes文件中-->
         <resources>
             <resource>
                 <directory>src/main/java</directory>

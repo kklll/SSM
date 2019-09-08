@@ -36,7 +36,7 @@ public class RootConfig implements TransactionManagementConfigurer {
         properties.setProperty("driverClassName", "com.mysql.jdbc.Driver");
         properties.setProperty("url", "jdbc:mysql://deepblue.datsec.cn:3306/learn?characterEncoding=UTF-8");
         properties.setProperty("username", "root");
-        properties.setProperty("password", "xxxx");
+        properties.setProperty("password", "anzhuoshiyanshi");
         try {
             dataSource = BasicDataSourceFactory.createDataSource(properties);
         } catch (Exception e) {
@@ -64,6 +64,7 @@ public class RootConfig implements TransactionManagementConfigurer {
         configurer.setSqlSessionFactoryBeanName("sqlSessionFactory");
         configurer.setAnnotationClass(Repository.class);
         return configurer;
+
     }
 
     @Bean(name = "annotationDrivenTransactionManager")

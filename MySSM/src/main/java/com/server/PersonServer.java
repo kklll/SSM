@@ -4,6 +4,7 @@ import com.pojo.Person;
 
 import java.util.List;
 
+
 public interface PersonServer {
     public Person insertRole(Person role);
 

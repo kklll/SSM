@@ -26,7 +26,7 @@ public class Test {
 
     @org.junit.Test
     public void test() {
-        ApplicationContext applicationContext = new AnnotationConfigApplicationContext(RootConfig.class,RedisConfig.class);
+        ApplicationContext applicationContext = new AnnotationConfigApplicationContext(RootConfig.class, RedisConfig.class);
         PersonMapper personMapper = applicationContext.getBean(PersonMapper.class);
         Person person = personMapper.getRole(1);
         System.out.println(person);
