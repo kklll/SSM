@@ -7,26 +7,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d726193-7599-4998-9d7e-23de140cf890" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imp/RedisTemplateImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/inter/RedisTemplateServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dao/RedPacketDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dao/UserRedPacketDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imp/RedPacketServiceImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imp/UserRedPacketServiceImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapper/RedPacket.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapper/UserRedPacket.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pojo/RedPacket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pojo/UserRedPacket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/server/RedPacketService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/server/UserRedPacketService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/mysql.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MySSM.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/config/RootConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/config/RootConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/imp/PersonServerImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imp/PersonServerImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/main/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/main/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/server/PersonServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/server/PersonServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/config/RedisConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/config/RedisConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/config/RootConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/config/RootConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/imp/PersonServerImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/imp/PersonServerImp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/main/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/main/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mapper/PersonMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mapper/PersonMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pojo/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pojo/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/server/PersonServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/server/PersonServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/main/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,20 +61,24 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/mapper" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\git project\SSM\MySSM\src\main\java\com\mapper" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\git project\SSM\MySSM\src\resources" />
       <recent name="D:\project\java_project\MySSM\src\main\java\com\mapper" />
       <recent name="D:\project\java_project\MySSM\src\resources\mapper" />
       <recent name="D:\project\java_project\MySSM\src\resources" />
@@ -265,6 +264,8 @@
       <workItem from="1567190712049" duration="3514000" />
       <workItem from="1567199731285" duration="2090000" />
       <workItem from="1567251999745" duration="7619000" />
+      <workItem from="1567926104200" duration="10659000" />
+      <workItem from="1568027671012" duration="62000" />
     </task>
     <servers />
   </component>
