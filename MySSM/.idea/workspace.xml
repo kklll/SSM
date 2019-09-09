@@ -7,21 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d726193-7599-4998-9d7e-23de140cf890" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dao/RedPacketDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dao/UserRedPacketDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imp/RedPacketServiceImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imp/UserRedPacketServiceImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapper/RedPacket.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapper/UserRedPacket.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pojo/RedPacket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pojo/UserRedPacket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/server/RedPacketService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/server/UserRedPacketService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/mysql.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/main/MyBigNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/main/MyBigNumber.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/imp/UserRedPacketServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imp/UserRedPacketServiceImp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MySSM.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis-config.xml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -96,35 +90,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.main.HelloWorld" />
-      <module name="MySSM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Main.jiecheng">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.main.Main" />
-      <module name="MySSM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.main.Test" />
       <module name="MySSM" />
       <extension name="coverage">
         <pattern>
@@ -149,7 +117,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Main.jiecheng" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MySSM" />
       <extension name="coverage">
         <pattern>
@@ -158,8 +126,40 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.main" />
-      <option name="MAIN_CLASS_NAME" value="com.main.Test" />
+      <option name="MAIN_CLASS_NAME" value="com.main.Main" />
+      <option name="METHOD_NAME" value="jiecheng" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MySSM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.main" />
+      <option name="MAIN_CLASS_NAME" value="com.main.Main" />
       <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main.tets" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MySSM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.main" />
+      <option name="MAIN_CLASS_NAME" value="com.main.Main" />
+      <option name="METHOD_NAME" value="tets" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -240,11 +240,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Main.jiecheng" />
+        <item itemvalue="JUnit.Main.tets" />
+        <item itemvalue="JUnit.Main.test" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.hehe" />
-        <item itemvalue="Application.HelloWorld" />
-        <item itemvalue="JUnit.Test.test" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -266,6 +266,7 @@
       <workItem from="1567251999745" duration="7619000" />
       <workItem from="1567926104200" duration="10659000" />
       <workItem from="1568027671012" duration="62000" />
+      <workItem from="1568041203662" duration="289000" />
     </task>
     <servers />
   </component>

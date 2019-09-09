@@ -27,12 +27,15 @@ public class UserRedPacketServiceImp implements UserRedPacketService {
         RedPacket redPacket = redPacketDao.getRedPacket(redPacketId);
         //当前红包数量大于0
         if (redPacket.getStock() > 0) {
-            UserRedPacket userRedPacket=new UserRedPacket();
+            UserRedPacket userRedPacket = new UserRedPacket();
             userRedPacket.setRedPacketId(redPacketId);
             userRedPacket.setUserId(userId);
             userRedPacket.setAmount(redPacket.getUnitAmount());
-            userRedPacket
-            userRedPacket
+            userRedPacket.setNote("抢到红包" + redPacketId);
+            int result = userRedPacketDao.grapRedPacket(userRedPacket);
+            return result;
         }
+        //如果不满足，返回失败
+        return FAILED;
     }
 }

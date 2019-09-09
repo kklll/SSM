@@ -1,5 +1,7 @@
 package com.main;
 
+import org.junit.Test;
+
 import java.util.Scanner;
 
 public class Main {
@@ -23,4 +25,39 @@ public class Main {
             System.out.println();
         }
     }
+
+    @Test
+    public void jiecheng() {
+        int[] num = new int[1];
+        num[0] = 1;
+        MyBigNumber result = new MyBigNumber(num);
+        for (int i = 1; i < 60; i++) {
+            int[] init = new int[100];
+            init[99] = 1;
+            for (int j = 1; j <= i; j++) {
+                result.setNumber(result.cheng(j));
+            }
+            System.out.print(i + "的阶乘为");
+            result.show();
+            System.out.println();
+            result.setNumber(init);
+        }
+    }
+
+    @Test
+    public void tets() {
+        int flag = 0;
+        int[] num = {1, 2, 3, 4, 5, 6, 7, 8, 9, 5, 6, 7};
+        MyBigNumber myBigNumber = new MyBigNumber(num);
+        int[] result = myBigNumber.cheng(96);
+        for (int i = 0; i < result.length; i++) {
+            if (result[i] != 0) {
+                flag = i;
+                break;
+            }
+        }
+        for (int j = flag; j < result.length; j++)
+            System.out.print(result[j]);
+    }
+
 }
